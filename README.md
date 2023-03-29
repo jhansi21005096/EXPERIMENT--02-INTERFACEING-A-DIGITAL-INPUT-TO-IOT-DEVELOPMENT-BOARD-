@@ -73,38 +73,55 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 Developed by:k.Jhansi
 
 refno:212221230045
-~
+
 #include "main.h"
+
 #include "stdio.h"
+
 #include "stdbool.h"
+
 bool irsensor;
 
-
-
 int main(void)
+
 {
+
   while (1)
+  
   {
+  
 	  irsensor=HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4);
+	  
 	     if(irsensor==0)
+	     
 	     {
+	     
 	    	 HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_SET);
+		 
 	    	 HAL_Delay(1000);
+		 
 	    	 HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+		 
 	    	 HAL_Delay(1000);
+		 
 	     }
+	     
 	     else
+	     
 	     {
+	     
 	    	 HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0,GPIO_PIN_RESET);
+		 
 	     }
+	     
 
   }
+  
  
 }
 
-~
 ## Output  :
- ![output]()
+ ![output](https://github.com/jhansi21005096/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/blob/main/iot-1.jpeg)
  ![output]()
  ![output]()
  
