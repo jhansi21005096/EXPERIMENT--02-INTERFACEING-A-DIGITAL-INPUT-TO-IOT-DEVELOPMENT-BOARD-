@@ -122,7 +122,7 @@ int main(void)
 
 ## Output  :
  ![output](https://github.com/jhansi21005096/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/blob/main/iot-1.jpeg)
- ![output]()
+ ![output](https://github.com/jhansi21005096/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/blob/main/iot-2.jpeg)
  ![output]()
  
  
